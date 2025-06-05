@@ -15,13 +15,16 @@ What we're doing today is writing functions that can manipulate the object passe
   * `getFirstName({firstName: 'John', lastName: 'Doe'}) // -> 'John'`
   * `getFirstName({firstName: 'Alice', lastName: 'Smith'}) // -> 'Alice'`
 
+
 * `getLastName` - returns the value of the lastName property of the given person object
   * `getLastName({firstName: 'John', lastName: 'Doe'}) // -> 'Doe'`
   * `getLastName({firstName: 'Alice', lastName: 'Smith'}) // -> 'Smith'`
 
+
 * `getFullName` - returns the value of the firstName property plus the lastName property with a space in the middle for the given person object
   * `getFullName({firstName: 'John', lastName: 'Doe'}) // -> 'John Doe'`
   * `getFullName({firstName: 'Alice', lastName: 'Smith'}) // -> 'Alice Smith'`
+
 
 * `setFirstName` - changes the value of the firstName property of the given person object to the given value
   * `setFirstName({firstName: 'John', lastName: 'Doe'}, 'Michael') // -> {firstName: 'Michael', lastName: 'Doe'}`
